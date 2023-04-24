@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: aqua;
+}
+
+main {
+    width: 700px;
+    height: 500px;
+    margin: auto;
+    position: absolute;
+    top: 25%;
+    right: 25%;
+    bottom: 25%;
+    left: 25%;
+}
+
+main {
+    background: url(../image/login-fundo.jpg);
+    border-radius: 10px;
+}
+
+#logo {
+    border-bottom: 2px solid aqua;
+}
+
+#img-login {
+    width: 200px;
+}
+
+#login {
+    height: 325px;
+    border-radius: 0 0 5px 5px;
+}
+
+#login-google {
+    width: 150px;
+}
+
+#botao-logar {
+    /*width: 150px;
+    background-color: aqua;
+    color: purple;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 1.2em;
+    border-radius: 5px;*/
+    background-image: linear-gradient(to left,#11b9ec,#7c64e6,#11b9ec) !important;
+    background-size: 200% !important;
+    transition: .4s;
+}
+
+div {
+    background-color: rgba(127, 187, 187, 0.521);
+    position: relative;
+    top: 10%;
+    right: 25%;
+    bottom: 25%;
+    left: 10%;
+    width: 300px;
+    text-align: center;
+}
+
+h1, p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    padding: 10px;
+}
+
+input {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 200px;
+    height: 30px;
+    margin: 5px;
+    padding: 3px;
+    border: 2px solid rgba(0, 255, 255, 0.521);
+}
